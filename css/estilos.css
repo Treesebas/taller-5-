@@ -1,0 +1,22 @@
+img{
+    width: 200px;
+}
+
+.titulo{
+
+    text-align: center;
+}
+
+.contenedorPMarvel{
+
+display: grid;
+grid-template-columns: auto auto auto auto ;
+}
+
+.contenedorPMarvel > div{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
